@@ -9,7 +9,7 @@ const Header = () => {
           <Image
             src="/mainLogo.png"
             alt="Illinois Logo"
-            width={200}
+            width={256}
             height={100}
             layout="fixed"
           />
