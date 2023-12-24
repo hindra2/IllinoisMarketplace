@@ -12,7 +12,7 @@ const config: Config = {
         sideHeight: "89.3%", // sidebar height
       },
       width: {
-        sideWidth: "15.3%", // sidebar widgth
+        sideWidth: "15.3%", // sidebar width
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
