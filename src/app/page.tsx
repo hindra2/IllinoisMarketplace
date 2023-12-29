@@ -6,9 +6,23 @@ export default function Home() {
         className="fixed w-[256px] h-sideHeight bg-white rounded-2xl ml-[10px]"
         aria-label="Sidebar"
       >
-        <span className="absolute flex text-2xl ml-4 text-black mt-[350px]">
-          Price
-        </span>
+        <div className="absolute top-[350px] left-0 right-0 px-4">
+          <span className="flex text-2xl text-black">Price</span>
+          <input
+            id="labels-range-input"
+            type="range"
+            defaultValue="1000"
+            min="100"
+            max="1500"
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-300"
+          />
+          <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400 mt-3">
+            <span>$100</span>
+            <span>$500</span>
+            <span>$1000</span>
+            <span>$1500</span>
+          </div>
+        </div>
 
         <span className="absolute flex text-2xl ml-4 text-black mt-[463px]">
           Categories
