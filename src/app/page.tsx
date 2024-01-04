@@ -92,7 +92,7 @@ export default function Home() {
           <div className="w-[274px] h-[416px] overflow-hidden shadow-lg ml-3 mt-3 rounded-xl">
             <Image
               src="/placeholders/macbook.jpg"
-              alt="Product Name"
+              alt="Macbook"
               width={274}
               height={274}
               objectFit="cover"
